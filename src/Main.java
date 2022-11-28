@@ -60,6 +60,4 @@ public class Main {
 
         Numbers.numbersSet();
     }
-
-
 }
