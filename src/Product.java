@@ -28,7 +28,7 @@ public class Product {
     }
     @Override
     public String toString() {
-        return "Продукт:" + name + '\'' +
+        return "Продукт:" + name +
                 ", количество" + count +
                 ", вес " + weight +
                 ", стоимость " + value + "\n";

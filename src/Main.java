@@ -1,4 +1,8 @@
 import java.util.*;
+//package com.javarush.task.task08.task0814;
+
+import java.util.HashSet;
+import java.util.Set;
 public class Main {
 
     public static void main(String[] args) {
@@ -22,7 +26,10 @@ public class Main {
         salatProducts2.add(tomato);
         salatProducts2.add(cucumber);
 
-        System.out.println(Arrays.toString(products.toArray()));
+        System.out.println(products.toString());
+
+
+
 
         Recipes salat1 = new Recipes("Кофе вареный", salatProducts1);
         salat1.getRecipes();
@@ -49,5 +56,10 @@ public class Main {
 
         set.removeAll(set2);
         System.out.println(Arrays.toString(set.toArray()));
+
+
+        Numbers.numbersSet();
     }
+
+
 }
