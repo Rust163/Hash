@@ -17,7 +17,7 @@ public class Recipes {
         int i=0;
         int sum=0;
         for (Product product : products.keySet()) {
-            sum=product.getValue() * ((Integer) b[product.getCount()]);
+            sum=product.getValue() * products.get(product);
             i++;
         }
         System.out.println(getRecipesName());
